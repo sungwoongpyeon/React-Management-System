@@ -1,5 +1,6 @@
 ## Management System
 This user management system project is designed and developed to understand the basic concept of React & Node.js.
+Used the Material-UI framework to improve graphical User Interface.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
