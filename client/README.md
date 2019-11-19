@@ -4,6 +4,8 @@ Used the Material-UI framework to improve graphical User Interface.
 
 Added Node.js Express Server Module
 Connected to MySQL to manage Customer data
+Add axios library to send form data to server side 
+Add multer library to upload pictures to database
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
