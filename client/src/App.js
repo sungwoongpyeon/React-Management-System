@@ -33,11 +33,13 @@ React lifeCycle orders
 
 props or state have been changed => shouldComponentUpdate()
 */
+
+
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      customers: '',
+      customers: "",
       completed: 0,
     }
   }
@@ -50,8 +52,9 @@ class App extends Component {
   }
 
   callApi = async () => {
-    const response = await fetch('/api/customers');
+    const response = await fetch('api/customers');
     const body = await response.json();
+    console.log(body);
     return body;
   }
 
